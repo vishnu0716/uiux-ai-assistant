@@ -1,0 +1,54 @@
+:root {
+    --bg-primary: #05050a;
+    --bg-secondary: #0a0a2a;
+    --text-primary: #ffffff;
+    --text-secondary: rgba(255,255,255,0.6);
+    --accent: #6366f1;
+}
+
+/* LIGHT MODE */
+body.day-mode {
+    --bg-primary: #f0f4ff;
+    --text-primary: #1a1a2e;
+}
+
+/* GLOBAL */
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+/* NAVBAR */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+/* GENERATOR */
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    background: #111;
+    color: white;
+}
+
+button {
+    background: var(--accent);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
